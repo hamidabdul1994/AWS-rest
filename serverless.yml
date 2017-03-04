@@ -1,0 +1,23 @@
+service: rest-nodejs
+provider:
+  name: aws
+  runtime: nodejs4.3
+functions:
+  hello:
+    handler: handler.hello
+    events:
+     - http:
+         path: /
+         method: get
+  getUser:
+    handler: handler.getUser
+    events:
+     - http:
+         path: /getUser
+         method: get
+  createUser:
+    handler: handler.createUser
+    events:
+     - http:
+         path: /createUser
+         method: post
