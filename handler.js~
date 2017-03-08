@@ -1,0 +1,49 @@
+'use strict';
+
+const uuid = require('uuid');
+const AWS = require('aws-sdk'); // eslint-disable-line import/no-extraneous-dependencies
+const dynamoDb = new AWS.DynamoDB.DocumentClient();
+
+module.exports.hello = (event, context, callback) => {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: ' v1.0!'
+    })
+  };
+  callback(null, response);
+};
+module.exports.getUser = (event, context, callback) => {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Get User data v1.0!',
+      event:event
+    })
+  };
+  callback(null, response);
+};
+module.exports.createUser = (event, context, callback) => {
+  var body_data = ("string" === typeof event.body)?JSON.parse(event.body):event.body;
+
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Create User Data v1.0!',
+      body:body_data
+    })
+  };
+  callback(null, response);
+};
+module.exports.deleteUser = (event, context, callback) => {
+  var body_data = ("string" === typeof event.body)?JSON.parse(event.body):event.body;
+
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Delete User Data v1.0!',
+      event:event
+    })
+  };
+  callback(null, response);
+};
