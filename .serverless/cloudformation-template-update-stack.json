@@ -196,7 +196,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/rest-nodejs/dev/1488983399473-2017-03-08T14:29:59.473Z/rest-nodejs.zip"
+          "S3Key": "serverless/rest-nodejs/dev/1489052903573-2017-03-09T09:48:23.573Z/rest-nodejs.zip"
         },
         "FunctionName": "rest-nodejs-dev-hello",
         "Handler": "handler.hello",
@@ -219,14 +219,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "HelloLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s": {
+    "HelloLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI+9ivP6qc2s="
+        "CodeSha256": "Pu+1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M="
       }
     },
     "GetUserLambdaFunction": {
@@ -236,7 +236,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/rest-nodejs/dev/1488983399473-2017-03-08T14:29:59.473Z/rest-nodejs.zip"
+          "S3Key": "serverless/rest-nodejs/dev/1489052903573-2017-03-09T09:48:23.573Z/rest-nodejs.zip"
         },
         "FunctionName": "rest-nodejs-dev-getUser",
         "Handler": "handler.getUser",
@@ -259,14 +259,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s": {
+    "GetUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetUserLambdaFunction"
         },
-        "CodeSha256": "4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI+9ivP6qc2s="
+        "CodeSha256": "Pu+1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M="
       }
     },
     "CreateUserLambdaFunction": {
@@ -276,7 +276,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/rest-nodejs/dev/1488983399473-2017-03-08T14:29:59.473Z/rest-nodejs.zip"
+          "S3Key": "serverless/rest-nodejs/dev/1489052903573-2017-03-09T09:48:23.573Z/rest-nodejs.zip"
         },
         "FunctionName": "rest-nodejs-dev-createUser",
         "Handler": "handler.createUser",
@@ -299,14 +299,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s": {
+    "CreateUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateUserLambdaFunction"
         },
-        "CodeSha256": "4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI+9ivP6qc2s="
+        "CodeSha256": "Pu+1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M="
       }
     },
     "DeleteUserLambdaFunction": {
@@ -316,7 +316,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/rest-nodejs/dev/1488983399473-2017-03-08T14:29:59.473Z/rest-nodejs.zip"
+          "S3Key": "serverless/rest-nodejs/dev/1489052903573-2017-03-09T09:48:23.573Z/rest-nodejs.zip"
         },
         "FunctionName": "rest-nodejs-dev-deleteUser",
         "Handler": "handler.deleteUser",
@@ -339,14 +339,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "DeleteUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s": {
+    "DeleteUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteUserLambdaFunction"
         },
-        "CodeSha256": "4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI+9ivP6qc2s="
+        "CodeSha256": "Pu+1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M="
       }
     },
     "ApiGatewayRestApi": {
@@ -555,7 +555,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1488983399490": {
+    "ApiGatewayDeployment1489052903588": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -712,25 +712,25 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s"
+        "Ref": "HelloLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M"
       }
     },
     "GetUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s"
+        "Ref": "GetUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M"
       }
     },
     "CreateUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s"
+        "Ref": "CreateUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M"
       }
     },
     "DeleteUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteUserLambdaVersion4CCcSFvJrAUcygcJesvZUHwz9tKxbZMSI9ivP6qc2s"
+        "Ref": "DeleteUserLambdaVersionPu1xOxDRabRkk0mdeietZSf7Xas7LML3l58Wpf6e5M"
       }
     },
     "ServiceEndpoint": {
